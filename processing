@@ -1,3 +1,5 @@
+Observação: os parâmetros numéricos aqui foram testados para que a palavra tivesse visualização completa
+
 void setup() {     //cria o fundo fixo
   
 size (1020, 690); 

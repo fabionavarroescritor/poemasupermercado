@@ -1,0 +1,31 @@
+void setup() {     //cria o fundo fixo
+  
+size (1020, 690); 
+  background (#000000);
+  
+PFont fonte;         //cria fonte, texto e coloca a cor desejada
+  fonte = loadFont ("VTCSuperMarketSaleDisplay-48.vlw");
+  textFont (fonte);
+  text ("corre", 100, 100, 100, 100); 
+  fill (#DE0202);
+ 
+}
+  
+  void keyPressed(){    //ao apertar a tecla muda o fundo
+    if (key == 'b') {
+      background (#000000);
+    } else if (key == 'r'){
+      background (#000000); 
+    } else if (key == 'g');
+    background (#000000); 
+  }
+  
+
+  
+ void draw(){
+   //fill  (random(0,255), random(0,255), random(0,255)); //desenho da palavra com os comandos de mouse e tecla apertados ou não
+   textSize (15);
+   text ("corre", mouseX, mouseY, 100,100);
+   //text (mouseX, mouseY, 50,50); 
+ }
+      

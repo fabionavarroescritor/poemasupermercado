@@ -26,6 +26,16 @@ PFont fonte;         //cria fonte, texto e coloca a cor desejada
   
  void draw(){
    //fill  (random(0,255), random(0,255), random(0,255)); //desenho da palavra com os comandos de mouse e tecla apertados ou não
+   
+   stroke (#FAA43A);     //desenhando linhas retas
+   strokeWeight (15); 
+   line (80, 390, 970, 390);  //linhas=prateleiras
+   line (80, 490, 970, 490);
+   line (80, 590, 970, 590);
+   line (80, 290, 970, 290);
+   line (80, 190, 970, 190);
+   line (80, 90, 970, 90);
+   
    textSize (15);
    text ("corre", mouseX, mouseY, 100,100);
    //text (mouseX, mouseY, 50,50); 

@@ -1,0 +1,33 @@
+void setup() {     //cria o fundo fixo
+  size (1020, 690); 
+  background (#000000);
+  PFont fonte;
+  fonte = loadFont ("VTCSuperMarketSaleItalic-48.vlw");
+  textFont (fonte);
+   //text ("corre", 1000, 1000, 1000, 1000);
+  //text ("dores", 1000, 1000, 1000, 1000);
+  //fill (#DE0202);
+}
+
+void keyPressed(){  //ambiente para as telcas pressionadas
+  if (key == 'b') {
+    background (#000000); 
+  } else if (key == 'n'){
+    background (#000000); 
+  }
+}
+    
+    void draw(){
+    
+   stroke (#FAA43A);     //desenhando linhas retas e desenhando palavras em locais diferentes e com cores diferentes
+   strokeWeight (15); 
+   line (80, 390, 970, 390);
+      if (key == 'b'){
+      text ("corre", 80, 340, 970, 340);
+      fill (#FFFDFC); 
+      } else if (key == 'n'){
+      text ("corre", 590, 340, 970, 340);
+      fill (#B70A04); 
+    }
+    }
+    
